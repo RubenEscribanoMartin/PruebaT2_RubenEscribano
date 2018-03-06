@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/MrFoxTheme">
 
-        <activity android:name=".MyLogin">
+        <activity android:name=".MySplash"
+            android:theme="@style/MrFoxTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,8 +21,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MySplash" />
+        <activity android:name=".MyLogin"
+            android:theme="@style/MrFoxTheme"/>
         <activity android:name=".MyMain"
+            android:theme="@style/MrFoxTheme"
             android:parentActivityName=".MyLogin"/>
 
 

@@ -25,7 +25,7 @@ public class MyLogin extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MyLogin.this, MySplash.class);
+                Intent intent = new Intent(MyLogin.this, MyMain.class);
                 startActivity(intent);
             }
         });
